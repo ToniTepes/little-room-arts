@@ -21,6 +21,7 @@ const DesktopMenu = ({ location: { pathname }, token, cartCount, signout }) => {
           header
         >
           <Logo />
+          Little Room Arts
         </Menu.Item>
         {token ? (
           <Menu.Menu position="right">
